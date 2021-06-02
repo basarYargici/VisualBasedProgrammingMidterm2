@@ -1,0 +1,6 @@
+HW_13.8 Pseudocode:
+
+- There should be a UserControl which will contains login and password Laybels and TextBoxes
+- There can be a DataGridView to show login and password fields
+- When user enters input, it should be hidden as '*'
+- Later on created UserControl should be implemented on a Form Application
