@@ -11,9 +11,9 @@ namespace Hw_12._6
         bool shouldPaint = false; // whether to paint
         GroupBox colors;
         GroupBox sizes;
-        Dictionary<String,Color> colorTypes = new Dictionary<String, Color>() 
-        { 
-            { "Red", Color.Red }, 
+        Dictionary<String, Color> colorTypes = new Dictionary<String, Color>()
+        {
+            { "Red", Color.Red },
             { "Blue", Color.Blue },
             { "Green", Color.Green},
             { "Black", Color.Black}
@@ -25,6 +25,7 @@ namespace Hw_12._6
             { "Large", 12}
         };
 
+        Graphics graphics;
         Color selectedColor;
         int selectedSize;
 
@@ -56,7 +57,7 @@ namespace Hw_12._6
 
         private RadioButton getSelectedRadioButton(GroupBox groupBox)
         {
-            
+
             foreach (RadioButton rdo in groupBox.Controls.OfType<RadioButton>())
             {
                 if (rdo.Checked)
@@ -78,8 +79,8 @@ namespace Hw_12._6
         {
             if (shouldPaint)
             {
-                Graphics graphics = CreateGraphics();
-                graphics.FillEllipse(new SolidBrush(selectedColor),e.X, e.Y, selectedSize, selectedSize);
+                graphics = CreateGraphics();
+                graphics.FillEllipse(new SolidBrush(selectedColor), e.X, e.Y, selectedSize, selectedSize);
             }
 
         } // end Painter_MouseMove
