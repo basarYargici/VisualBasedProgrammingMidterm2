@@ -7,6 +7,7 @@ you can find source codes of questions in HW_N folder where N is 8.8, 12.6, 13.8
 To see Visual Based Programming midterm-1 repository: [First Midterm](https://github.com/basarYargici/VisualBasedProgrammingMidterm)
 
 <hr>
+
 ### Question 8.8:  <br>
 Write a console application that implements a Square shape. Class Square should contain an instance property Side that has get and set accessors for private data. Provide two constructors: one that takes no arguments and another that takes a side length as a value. Write an application class that tests class Square’s functionality.
 
