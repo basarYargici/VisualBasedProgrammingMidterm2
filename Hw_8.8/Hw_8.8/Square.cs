@@ -20,5 +20,4 @@
             return "Square side = " + _side;
         }
     }
-
 }

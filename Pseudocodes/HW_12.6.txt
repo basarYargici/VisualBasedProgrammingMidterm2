@@ -1,5 +1,5 @@
 HW_12.6 Pseudocode:
 
-- There should be two GroupBoxes which will contains colors and sizes as RadioButtons
+- There should be two GroupBoxes which will contain colors and sizes as RadioButtons
 - On the right side, there should be drawable area which we will draw our shapes
 - Program should take the selected size and color RadioButtons and later it should adjust the paint brush

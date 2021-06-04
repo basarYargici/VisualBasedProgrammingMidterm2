@@ -1,0 +1,17 @@
+HW_17.8 Pseudocode:
+
+- There should be a Tool entity class which represents hardware tool in our program.
+- There can be two different system classes: StoreFileSystem, which is responsible of file processes, and StoreToolSystem, which is responsible of adding,updating and deleting product from database.
+- Program lets user input data relating to each tool, enables user to list all your tools, lets user delete a record for a tool that user no longer have and lets user update any information in the file.
+- The tool identification number should be the record number.
+- Data should be kept in file like:
+     
+Record # Tool name 	  Quantity   Price
+3 	 Electric sander  18 	     35.99
+19 	 Hammer 	  128 	     10.00
+26 	 Jig saw          16         14.25
+39 	 Lawn mower       10         79.50
+56 	 Power saw        8          89.99
+76 	 Screwdriver      236        4.99
+81 	 Sledge hammer    32         19.75
+88 	 Wrench           65         6.48

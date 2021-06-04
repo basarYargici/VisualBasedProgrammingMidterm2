@@ -2,7 +2,7 @@ HW_8.8 Pseudocode:
 
 - There should be a class named Square
 - Square class should have side attribute which will be private and will be accessed via getters and setters
-- Square class will have two constructor, one will have side parameter 
+- Square class will have two constructors, one will have side parameter 
 
 - SquareTest class will test square instances.
 - One instances' side property will be given via parameterized constructor, other's via setter
